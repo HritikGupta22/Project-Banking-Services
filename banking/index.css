@@ -3,26 +3,31 @@ body{
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    height: 100%;
     background-color: black;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+
+
 
 }
 .nav{
     width: 100%;
-    height: auto;
-     background:linear-gradient(to left,#ff6ee2,rgb(237, 29, 240),#1b1b8b);
+    height: 13vh;
+    background:linear-gradient(to left,#ff6ee2,rgb(237, 29, 240),#1b1b8b);
     color: white;
     display: flex;
     justify-content: space-between;
 
 }
-#heading{
+.nav #heading{
     margin-top: 30px;
     margin-left: 25px;
     font-size: 23px;
 
 }
-
-li{ 
+.nav li{ 
     text-align: center; 
     width: auto;
     display: inline-block;
@@ -30,21 +35,35 @@ li{
     font-size: 23px;
     margin: 12px; 
 }
-li:hover{
+.nav li:hover{
     box-shadow: 3px 3px 3px 3px rgb(54, 6, 100);
     text-shadow: 2px 2px 4px white;
 }
 
-main{
+#main{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-image: url('http://localhost/banking/imgs/bgbank.png');
-    height: 470px;
+    height:77vh;
+
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+footer{
+    margin-top: 0;
+    padding: 5px;
+    height: 10vh;
+    text-align: center;
+    color: white;
+    background:linear-gradient(to left,#ff6ee2,rgb(237, 29, 240),#1b1b8b);
+    font-size:x-large;
+}
+
+
+
 #contain1{
     margin: 0;
     padding: 0;
@@ -56,7 +75,7 @@ main{
     border-radius: 25px;
     margin-top: 80px;
     margin-left: 150px;
-    width: 300px;
+    width: 400px;
  
     
 }
@@ -65,8 +84,8 @@ main{
 #tfer{
     margin-top: 30px;
     margin-left: 100px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
     border: 5px solid #c000ff;
     background-color:hsla(0, 17%, 9%, 0.701);
     color: white;
@@ -76,23 +95,15 @@ main{
 #trans{
     margin-top: 30px;
     margin-left: 110px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
     border: 5px solid #c000ff;
 
     background-color:hsla(0, 17%, 9%, 0.701);
     color: white;
     border-style:double;
 }
-footer{
-    margin-top: 0;
-    padding: 5px;
-    height: 33px;
-    text-align: center;
-    color: white;
-    background:linear-gradient(to left,#ff6ee2,rgb(237, 29, 240),#1b1b8b);
-    font-size:x-large;
-}
+
 #img2{
 
     margin-left: 1px;
@@ -109,15 +120,20 @@ footer{
     margin: 0;
     padding-top: 2%;
     padding-left: 8%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
-    height: auto;
+    
 
   
 }
+.scroll{
+    overflow-y:scroll;height: 85%;width:80% ;margin:0;padding:0 ;
+   
+}
 .cosmtble{
+
     border:  2px solid rgb(37, 168, 239);
-    
     text-align: center;
     color: rgb(255, 255, 255);
     background-image: linear-gradient(rgb(5, 5, 137),rgb(114, 9, 79));
@@ -126,6 +142,10 @@ footer{
     white-space: nowrap;
     position: sticky;
     top: 0;
+
+
+
+    
     
     
 }
@@ -134,27 +154,28 @@ footer{
     margin: 0;
     padding-top: 2%;
     padding-left: 8%;
-  
-  
+      height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+
+    
+    
 }
 .cosmtble2{
     border:  2px solid rgb(37, 168, 239);
     width: 65%;
-    height: auto;
     text-align: center;
     color: rgb(255, 255, 255);
     background-image: linear-gradient(rgb(5, 5, 137),rgb(114, 9, 79));
     border-spacing: 16px;
     border-style:dashed;
     border-radius: 2%;
+
+
     
 }
-.scroll{
-    overflow-y:scroll;height: 400px;width: 780px; ;margin:0;padding:0 ;
-   
 
-
-}
 ::-webkit-scrollbar {
     width: 12px;
     display: none;
@@ -190,5 +211,4 @@ footer{
     border: black solid 1px;
 
 }
-
 
