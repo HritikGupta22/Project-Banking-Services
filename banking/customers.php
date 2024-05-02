@@ -26,7 +26,7 @@
   </header>
   <hr style="border: 2px solid black; margin: 0px; padding: 0px" />
 
-  <main style="background-image: url(http://localhost/banking/imgs/bgbank.png);">
+  <main id="main" style="background-image: url(http://localhost/banking/imgs/bgbank.png);">
     <div id="contain3">
       <?php
       $conn = mysqli_connect($servername, $username, $password, $database);
