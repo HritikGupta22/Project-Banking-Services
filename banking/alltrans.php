@@ -27,7 +27,7 @@
     </header>
     <hr style="border: 2px solid black; margin: 0px; padding: 0px" />
 
-    <main style="background-image: url(http://localhost/banking/imgs/bgbank.png);">
+    <main id="main" style="background-image: url(http://localhost/banking/imgs/bgbank.png);">
       <div id="contain2" >
     
       <?php
@@ -41,7 +41,7 @@
 
       ?>
       <div class="scroll">
-        <table class="cosmtble" style="position: sticky;top:0;width: 763px;height: 400px;" >
+        <table class="cosmtble" style="position: sticky;top:0;width: 70%;height:150%;" >
           <thead>
               <tr>
                   <th>Sno.</th>
