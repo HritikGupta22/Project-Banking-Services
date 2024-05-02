@@ -41,7 +41,7 @@ $_SESSION['accno'] = $accno;
   </header>
   <hr style="border: 2px solid black; margin: 0px; padding: 0px" />
 
-  <main style="background-image: url(http://localhost/banking/imgs/bgbank.png);">
+  <main id="main" style="background-image: url(http://localhost/banking/imgs/bgbank.png);">
     <div style="color:white" class="trmbox">
       <?php include 'connect.php'; ?>
       <table class="blancetble">
