@@ -25,9 +25,7 @@
       </div>
     </header>
     <hr style="border: 2px solid black; margin: 0px; padding: 0px" />
-
-    <main>
-      <main>
+    <main id="main">
         <iframe src="https://internship.thesparksfoundation.info/" frameborder="0" width="100%" height="100%"></iframe>
     
     </main>
