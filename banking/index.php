@@ -15,7 +15,7 @@
         <ul>
           <li><a href="/banking/index.php">Home</a></li>
           <li><a href="/banking/customers.php">Customers</a></li>
-          <li><a href="/banking/alltrans.php">All Transations</a></li>
+          <li><a href="/banking/alltrans.php">All Transactions</a></li>
           <li>
             <a
               href="/banking/aboutus.php"
@@ -32,7 +32,7 @@
         <img src="/banking/imgs/banklogo.jpg" id="img1">
         <p id="btns">
         <a href="/banking/customers.php"><button id="tfer">Transfer Money</button></a>
-        <a href="/banking/alltrans.php"><button id="trans"> Transations</button></a>
+        <a href="/banking/alltrans.php"><button id="trans"> Transactions </button></a>
         </p>
       </div>
 
